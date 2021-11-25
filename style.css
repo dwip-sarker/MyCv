@@ -1,0 +1,178 @@
+/* GOOGLE FONTS  */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Cabin:ital,wght@0,500;0,600;0,700;1,400&family=Shippori+Antique&display=swap");
+/* font-family: "Shippori Antique", sans-serif; */
+/* font-family: 'Cabin', sans-serif; */
+/* font-family: 'Alegreya Sans', sans-serif; */
+
+/* CSS RESATING  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* GLOBAL USED CSS  */
+body {
+  background-color: #dfecff;
+}
+.sidebar_heading {
+  background-color: #063957;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+/* STYLEING MAIN AREA  */
+.main_area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+/* CV AREA STYLEING  */
+.main_area .cv_area {
+  width: 750px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* CV's SIDEBAR STYLEING  */
+.cv_area .sidebar {
+  width: 30%;
+  background-color: #0c4e70;
+  padding-top: 30px;
+  font-family: "Shippori Antique", sans-serif;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+/* SIDEBAR IMG AREA STYLEING  */
+.sidebar .img_area {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 7px solid #063957;
+  margin: 0 auto;
+}
+.sidebar .img_area img {
+  width: 100%;
+  object-fit: cover;
+}
+/* SIDEBAR CONTENT AREA STYLEING  */
+.sidebar .me {
+  background-color: #063957;
+  text-align: center;
+  margin: 20px 0;
+}
+.sidebar .me h1 {
+  font-size: 26px;
+  text-align: center;
+}
+.sidebar .me p {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* ADDRESS AREA STYLEING  */
+.address_area {
+  text-align: center;
+}
+.address_area .data {
+  font-size: 11px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.address_area .data h3 {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+}
+
+.address_area .data i {
+  margin-right: 5px;
+}
+
+/* SKILLS AREA STYLEING  */
+.skills_area .skills_data {
+  padding-left: 10px;
+}
+.skills_area .skills_data h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.skills_data .stars_area {
+  display: flex;
+  padding: 10px 0;
+}
+.skills_data .stars_area div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.267);
+  margin-right: 10px;
+}
+.skills_data .stars_area div.active {
+  background-color: rgba(255, 255, 255, 0.884);
+}
+/* SOCIAL AREA STYLEING  */
+.Social_area {
+  padding-bottom: 30px;
+}
+.Social_area .social_data {
+  padding-left: 10px;
+}
+.social_data i {
+  margin-right: 10px;
+}
+.social_data a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* MAIN CONTENT AREA  */
+.main_content {
+  display: flex;
+  padding-right: 20px;
+}
+.main_content .line {
+  height: 100%;
+  width: 2px;
+  background-color: #063957;
+  margin-left: 30px;
+  position: relative;
+  margin-right: 15px;
+}
+.main_content .line div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid #063957;
+  background: white;
+  position: absolute;
+  left: -7px;
+}
+.main_content .line div:nth-child(1) {
+  top: 40px;
+}
+.main_content .line div:nth-child(2) {
+  top: 144px;
+}
+.main_content .line div:nth-child(3) {
+  top: 322px;
+}
+.main_content .line div:nth-child(4) {
+  top: 445px;
+}
+.main_content .information {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.information h2 {
+  margin-top: 35px;
+}
+.information span {
+  font-weight: bold;
+}
